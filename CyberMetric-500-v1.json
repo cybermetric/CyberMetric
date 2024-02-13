@@ -184,7 +184,7 @@
             "question": "What is the formula to determine the number of connections in a full mesh network?",
             "answers": {
                 "A": "n^2",
-                "B": "n(n – 1)/2",
+                "B": "n(n - 1)/2",
                 "C": "n + 1",
                 "D": "n(n + 1)/2"
             },
@@ -4141,12 +4141,12 @@
             "solution": "C"
         },
         {
-            "question": "What refers to data encrypted with AES 256, restrictively sent and viewed within the organization, and has stringent usage limitations such as content copying and printing?",
+            "question": "What is the displacement sequence of the permutation (0, 1, 2) for a rotor system (m=3)?",
             "answers": {
-                "A": "Public data",
-                "B": "Private data",
-                "C": "Confidential/Proprietary data",
-                "D": "Sensitive data"
+                "A": "(0, 0, 0)",
+                "B": "(0, 1, 2)",
+                "C": "(1, 2, 0)",
+                "D": "(1, 1, 1)"
             },
             "solution": "C"
         },
@@ -4495,8 +4495,8 @@
             "answers": {
                 "A": "Automatic Transfer Mode",
                 "B": "Advanced Transfer Method",
-                "C": "Asynchronous Transmission Mode",
-                "D": "Associated Transfer Mode"
+                "C": "Asynchronous Transfer Mode",
+                "D": "Asynchronous Transmission Mode"
             },
             "solution": "C"
         },
