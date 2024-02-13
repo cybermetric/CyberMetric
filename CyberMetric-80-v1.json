@@ -702,14 +702,14 @@
   "solution": "B"
 },
 {
-      "question": "During risk analysis, what should be developed to determine the level of exposure to identified threats and identify possible safeguards or controls?",
-      "answers": {
-        "A": "Risk level",
-        "B": "Controls recommended",
-        "C": "Risk assessment statement",
-        "D": "Risk analysis report"
-      },
-      "solution": "D"
+  "question": "What is the primary purpose of conducting a risk analysis in cybersecurity?",
+  "answers": {
+      "A": "To assess the risk level for the organization",
+      "B": "To formulate the most important IT security procedures for the organization",
+      "C": "To create a risk assessment statement",
+      "D": "To determine the level of exposure to identified threats and identify possible safeguards or controls"
+  },
+  "solution": "D"
 },
 {
   "question": "What is the primary advantage of using UDP over TCP?",
