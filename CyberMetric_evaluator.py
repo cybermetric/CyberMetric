@@ -1,6 +1,3 @@
-#CyberMetric: A Benchmark Dataset for Evaluating Large Language Models Knowledge in Cybersecurity
-#Authors: Norbert Tihanyi, Mohamed Amine Ferrag, Ridhi Jain, Merouane Debbah
-#Cite the paper:  https://arxiv.org/abs/2402.07688
 import json
 import re
 import time
