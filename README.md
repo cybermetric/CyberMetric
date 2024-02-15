@@ -23,7 +23,7 @@ The CyberMetric dataset is created using different LLMs and validated by human e
 We evaluated several well-known LLMs, including GPT-4, FALCON-180B, GEMINI-Pro, and Mixtral-8x7B.
 
 ## Results on CyberMetric-80
-<img width="1025" alt="Result" src="https://github.com/cybermetric/CyberMetric/assets/159767263/aec38cac-2dd2-4931-a195-68238f33628a">
+<img width="971" alt="result" src="https://github.com/cybermetric/CyberMetric/assets/159767263/9508b6a8-7a3d-401b-8cfe-5069c6a99e9a">
 
 # Usage
 
