@@ -11,6 +11,10 @@
 
 The **CyberMetric Dataset** introduces a new benchmarking tool consisting of 10,000 questions designed to evaluate the cybersecurity knowledge of various Large Language Models (LLMs) within the cybersecurity domain. This dataset is created using different LLMs and has been verified by human experts in the cybersecurity field to ensure its relevance and accuracy. The dataset is compiled from various sources including standards, certifications, research papers, books, and other publications within the cybersecurity field.  We provide the dataset in four distinct sizes —small, medium, big and large— comprising 80, 500, 2000 and 10,000 questions, respectively.The smallest version is tailored for comparisons between different LLMs and humans. The CyberMetric-80 dataset has been subject to testing with 30 human participants, enabling an effective comparison between human and machine intelligence.
 
+# Cite
+
+
+Cite paper (arXiv): [https://arxiv.org/abs/2404.18353](https://arxiv.org/abs/2402.07688) "CyberMetric: A Benchmark Dataset based on Retrieval-Augmented Generation for Evaluating LLMs in Cybersecurity Knowledge"
 
 # Architecture
 
