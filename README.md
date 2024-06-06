@@ -14,16 +14,16 @@ The **CyberMetric Dataset** introduces a new benchmarking tool consisting of 10,
 
 # Architecture
 
-The CyberMetric dataset is created using different LLMs and validated by human experts. The AI-driven generation framework is illustrated in the following figure.
-<img width="1102" alt="Framework" src="https://github.com/cybermetric/CyberMetric/assets/159767263/a1ce9e24-4d40-4f37-adbf-99dc0bf2ed59">
+The CyberMetric dataset was created by applying different language models using Retrieval-Augmented Generation (RAG), with human validation included in the process. The AI-driven generation framework is illustrated in the following figure.
+<img width="1102" alt="Framework" src="https://github.com/cybermetric/CyberMetric/assets/159767263/6d3c8d55-289d-4922-8302-4f3e379a9805">
 
 
-# Results
+# LLM Leaderboard on CyberMetric Dataset
 
-We evaluated several well-known LLMs, including GPT-4, FALCON-180B, GEMINI-Pro, and Mixtral-8x7B.
+We have evaluated and compared 25 state-of-the-art LLM models on the CyberMetric dataset
 
-## Results on CyberMetric-80
-<img width="971" alt="result" src="https://github.com/cybermetric/CyberMetric/assets/159767263/9508b6a8-7a3d-401b-8cfe-5069c6a99e9a">
+<img width="971" alt="result" src="https://github.com/cybermetric/CyberMetric/assets/159767263/208e28b0-9218-4007-a48c-5a9d30400c2d">
+
 
 # Usage
 
