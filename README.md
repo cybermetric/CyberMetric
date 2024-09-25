@@ -13,8 +13,23 @@ The **CyberMetric Dataset** introduces a new benchmarking tool consisting of 10,
 
 # Cite
 
+The CyberMetric paper has been accepted for publication in the 2024 IEEE International Conference on Cyber Security and Resilience (IEEE CSR 2024).
 
-Cite paper (arXiv): [https://arxiv.org/abs/2404.18353](https://arxiv.org/abs/2402.07688) "CyberMetric: A Benchmark Dataset based on Retrieval-Augmented Generation for Evaluating LLMs in Cybersecurity Knowledge"
+IEEE Xplore link: https://ieeexplore.ieee.org/document/10679494
+
+Cite the paper:
+```python
+@INPROCEEDINGS{10679494,
+  author={Tihanyi, Norbert and Ferrag, Mohamed Amine and Jain, Ridhi and Bisztray, Tamas and Debbah, Merouane},
+  booktitle={2024 IEEE International Conference on Cyber Security and Resilience (CSR)}, 
+  title={CyberMetric: A Benchmark Dataset based on Retrieval-Augmented Generation for Evaluating LLMs in Cybersecurity Knowledge}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={296-302},
+  keywords={Accuracy;Reverse engineering;Benchmark testing;NIST Standards;Risk management;Problem-solving;Computer security},
+  doi={10.1109/CSR61664.2024.10679494}}
+```
 
 # Architecture
 
