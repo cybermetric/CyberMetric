@@ -4,10 +4,10 @@
 {
   "question": "What is the primary requirement for an Random Bit Generator's (RBG) output to be used for generating cryptographic keys?",
   "answers": {
-    "A": "The RBG's output should have a length that matches the target data to be protected.",
-    "B": "The RBG's output should be computationally indistinguishable from random bits and provide sufficient entropy to support the security strength required for the target data.",
-    "C": "The RBG's output should be as long as possible to ensure maximal randomness.",
-    "D": "The RBG's output should have precisely the same length as the symmetric key to be generated."
+    "A": "The RBG's output should have a length that matches the target data to be protected",
+    "B": "The RBG's output should be computationally indistinguishable from random bits and provide sufficient entropy to support the security strength required for the target data",
+    "C": "The RBG's output should be as long as possible to ensure maximal randomness",
+    "D": "The RBG's output should have precisely the same length as the symmetric key to be generated"
   },
   "solution": "B"
 },
@@ -17,7 +17,7 @@
     "A": "Generate public keys",
     "B": "Authenticate digital signatures",
     "C": "Encrypt data using a password",
-    "D": "KDF are algorithms used to transform a secret into crucial parameters like keys and Initialization Vectors (IVs)."
+    "D": "KDF are algorithms used to transform a secret into crucial parameters like keys and Initialization Vectors (IVs)"
   },
   "solution": "D"
 },
@@ -34,42 +34,42 @@
 {
       "question": "What is the purpose of using strong cryptography to protect cardholder data during transmission over open, public networks?",
       "answers": {
-        "A": "To ensure the data is secured from unauthorized access or interception during transmission.",
-        "B": "To increase the speed of data transmission over open, public networks.",
-        "C": "To provide access to authorized individuals to monitor the transmission process.",
-        "D": "To improve the efficiency of network routing protocols."
+        "A": "To ensure the data is secured from unauthorized access or interception during transmission",
+        "B": "To increase the speed of data transmission over open, public networks",
+        "C": "To provide access to authorized individuals to monitor the transmission process",
+        "D": "To improve the efficiency of network routing protocols"
       },
       "solution": "A"
 },
 {
       "question": "What is the purpose of periodic reviews of user accounts and access privileges?",
       "answers": {
-        "A": "To ensure all user accounts have access to the highest privileges.",
-        "B": "To demonstrate adherence to regulatory requirements.",
+        "A": "To ensure all user accounts have access to the highest privileges",
+        "B": "To demonstrate adherence to regulatory requirements",
         "C": "To create a record of all user accounts",
-        "D": "To identify and remove any inappropriate access and privileges."
+        "D": "To identify and remove any inappropriate access and privileges"
       },
       "solution": "D"
 },
 {
       "question": "Which of the following is a purpose of having synchronized system clocks?",
       "answers": {
-        "A": "To compare log files from different systems.",
-        "B": "To accelerate system performance.",
-        "C": "To standardize file naming conventions.",
-        "D": "To reduce power consumption."
+        "A": "To compare log files from different systems",
+        "B": "To accelerate system performance",
+        "C": "To standardize file naming conventions",
+        "D": "To reduce power consumption"
       },
       "solution": "A"
 },
 {
   "question": "What is physical security?",
   "answers": {
-    "A": "The protection of data from hacker attacks.",
-    "B": "The act of securing a building or location to prevent unauthorized access, theft, or damage to physical assets.",
-    "C": "The prevention of natural disasters caused by environmental factors.",
-    "D": "The enforcement of technical security controls to prevent data breaches."
+    "A": "The protection of data from hacker attacks",
+    "B": "The prevention of natural disasters caused by environmental factors",
+    "C": "The act of securing a building or location to prevent unauthorized access, theft, or damage to physical assets",
+    "D": "The enforcement of technical security controls to prevent data breaches"
   },
-  "solution": "B"
+  "solution": "C"
 },
  {
       "question": "What does the abbreviation 'SDK' stand for in the context of software security?",
@@ -86,7 +86,7 @@
       "answers": {
         "A": "To limit user privileges within the network",
         "B": "To ensure compliance with government regulations",
-        "C": "To adds an extra layer of security by requiring multiple forms of verification.",
+        "C": "To adds an extra layer of security by requiring multiple forms of verification",
         "D": "To monitor network traffic for security threats"
       },
       "solution": "C"
@@ -184,10 +184,10 @@
 {
   "question": "Which of the following is a major security problem with FTP?",
   "answers": {
-    "A": "Password files are stored in an unsecure area on disk.",
-    "B": "Memory traces can corrupt file access.",
-    "C": "User IDs and passwords are unencrypted.",
-    "D": "FTP sites are unregistered."
+    "A": "Password files are stored in an unsecure area on disk",
+    "B": "Memory traces can corrupt file access",
+    "C": "User IDs and passwords are unencrypted",
+    "D": "FTP sites are unregistered"
   },
   "solution": "C"
 },
@@ -214,10 +214,10 @@
 {
   "question": "What does the Address Resolution Protocol (ARP) do in a network?",
   "answers": {
-    "A": "Resolves domain names to IP addresses.",
-    "B": "Allocates IP addresses to network devices.",
-    "C": "Translates IP addresses to media access control (MAC) addresses.",
-    "D": "Verifies that a host is reachable."
+    "A": "Resolves domain names to IP addresses",
+    "B": "Allocates IP addresses to network devices",
+    "C": "Translates IP addresses to media access control (MAC) addresses",
+    "D": "Verifies that a host is reachable"
   },
   "solution": "C"
 },
@@ -317,7 +317,7 @@
     "A": "Requires user interaction to spread",
     "B": "Self-replicates and spreads independently",
     "C": "Aargets specific individuals or organizations",
-    "D": "A worm is an item that runs silently."
+    "D": "A worm is an item that runs silently"
   },
   "solution": "B"
 },
@@ -352,10 +352,10 @@
   "solution": "C"
 },
 {
-  "question": "What is the purpose of the Crossover Error Rate (CER) in rating the performance of biometric devices?",
+  "question": "What is the purpose of the Crossover Error Rate (CER) in evaluating biometric devices",
   "answers": {
-    "A": "To compare the effectiveness of different biometric factors",
-    "B": "To compare the accuracy of similar biometric devices",
+    "A": "To compare the False Rejection Rate (FRR) of different biometric devices",
+    "B": "To compare the accuracy of similar biometric devices from different vendors or different models from the same vendor",
     "C": "To assess the acceptance level of biometric factors",
     "D": "To measure the throughput rate of biometric devices"
   },
@@ -404,9 +404,9 @@
 {
   "question": "What is the essential requirement for the security of the Discrete Logarithm Integrated Encryption Scheme (DLIES) to be maintained?",
   "answers": {
-    "A": "The order q of the base point P should be at least q ≥ 1024.",
-    "B": "Randomly choose two primes p and q such that p*q > 2048 bits.",
-    "C": "The length of the prime number p should be at least 3000 bits.",
+    "A": "The order q of the base point P should be at least q >= 1024",
+    "B": "Randomly choose two primes p and q such that p*q > 2048 bits",
+    "C": "The length of the prime number p should be at least 3000 bits",
     "D": "All of the above"
   },
   "solution": "C"
