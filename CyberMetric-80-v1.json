@@ -632,7 +632,8 @@
   "solution": "C"
 },
 {
-  "question": "Who is responsible for implementing the organization's planning, budgeting, and performance, including its information security components?",
+  
+  "question": "Who is responsible for implementing the planning, budgeting, and performance of the organization's information security components?",
   "answers": {
     "A": "Administrator",
     "B": "CISO",
