@@ -3,12 +3,52 @@
         {
             "question": "Based on the lastest advice from the National Institute of Standards and Technology (NIST), when should regular users be required to change their passwords?",
             "answers": {
-                "A": "Every 90 days",
-                "B": "Only if the current password is compromised",
+                "A": "Only if the current password is compromised",
+                "B": "Every 90 days",
                 "C": "Every 30 days",
                 "D": "Every 60 days"
             },
-            "solution": "B"
+            "solution": "A"
+        },
+         {
+            "question": "Which of the following is a best practice for creating strong passwords?",
+            "answers": {
+                "A": "Using common words or phrases",
+                "B": "Using the same password for multiple accounts",
+                "C": "Setting a password expiration period of 3 years",
+                "D": "Including a mix of uppercase, lowercase, numbers, and special characters"
+            },
+            "solution": "D"
+        },
+        {
+            "question": "What is the purpose of encryption in the context of data protection?",
+            "answers": {
+                "A": "To protect data while in transit or at rest",
+                "B": "To compress data for efficient storage",
+                "C": "To hide data from authorized users",
+                "D": "To corrupt sensitive data"
+            },
+            "solution": "A"
+        },
+        {
+            "question": "What is the minimum effective key strength recommended for strong cryptography?",
+            "answers": {
+                "A": "112-bits",
+                "B": "80-bits",
+                "C": "128-bits",
+                "D": "64-bits"
+            },
+            "solution": "C"
+        },
+        {
+            "question": "Which of the following is an example of a social engineering attack in cybersecurity?",
+            "answers": {
+                "A": "Denial-of-service (DoS) attack",
+                "B": "Brute force attack",
+                "C": "Phishing attack",
+                "D": "SQL injection attack"
+            },
+            "solution": "C"
         },
         {
             "question": "Which of the following is necessary to create a security association (SA) in IPSec?",
@@ -29,6 +69,16 @@
                 "D": "Security kernel"
             },
             "solution": "D"
+        },
+        {
+            "question": "What structure is used to prevent cars from ramming a building?",
+            "answers": {
+                "A": "Honeypot",
+                "B": "Gates",
+                "C": "Bollard",
+                "D": "Fences"
+            },
+            "solution": "C"
         },
         {
             "question": "An organization is concerned about the risk of a car driving from the parking lot through the entrance of the building. Which of the following security measures would best help address this concern?",
@@ -93,12 +143,12 @@
         {
             "question": "What technique involves reducing the precision with which data is shared, aiming to reduce the accuracy of an adversary’s inferences?",
             "answers": {
-                "A": "Dummy addition",
-                "B": "Generalization",
+                "A": "Generalization",
+                "B": "Dummy addition",
                 "C": "Suppression",
                 "D": "Perturbation"
             },
-            "solution": "B"
+            "solution": "A"
         },
         {
             "question": "What is the primary principle behind job rotation in an organization from a security perspective?",
@@ -171,16 +221,6 @@
             "solution": "A"
         },
         {
-            "question": "What is an essential aspect of implementing HIPAA privacy regulations?",
-            "answers": {
-                "A": "Ensuring physical security of patient records",
-                "B": "Certifying all employees in security protocols",
-                "C": "Ensure full legal compliance and measure implementation effectiveness with appropriate metrics",
-                "D": "Developing robust encryption methods for data protection"
-            },
-            "solution": "C"
-        },
-        {
             "question": "Which term best describes an outcome of the use of privacy policies that is both unexpected and leads to either the provider or the consumer or both experiencing a loss?",
             "answers": {
                 "A": "Positive unexpected outcome",
@@ -233,12 +273,12 @@
         {
             "question": "What is the main objective of using the nbtstat command?",
             "answers": {
-                "A": "To gather user and group information remotely",
-                "B": "To troubleshoot name-resolution issues",
+                "A": "To troubleshoot name-resolution issues",
+                "B": "To gather user and group information remotely",
                 "C": "To change account passwords remotely",
                 "D": "To perform a zone transfer"
             },
-            "solution": "B"
+            "solution": "A"
         },
         {
             "question": "Which of the following authentication methods involves the use of a combination of something the user knows and something the user has?",
@@ -304,7 +344,7 @@
             "question": "What is the primary threat to medical privacy?",
             "answers": {
                 "A": "Physical theft of medical records",
-                "B": "Data breaches",
+                "B": "Computer networks compromised by malware",
                 "C": "Insufficient encryption",
                 "D": "Insider abuse of authorized access"
             },
@@ -313,32 +353,32 @@
         {
             "question": "Which book listed basic operating instructions for the PURPLE machine?",
             "answers": {
-                "A": "Suruga codebook",
-                "B": "Ko codebook",
+                "A": "Ko codebook",
+                "B": "Suruga codebook",
                 "C": "Iwakura codebook",
                 "D": "Otsu codebook"
             },
-            "solution": "B"
+            "solution": "A"
         },
         {
             "question": "What does PGP use to encrypt messages for transmission and storage?",
             "answers": {
-                "A": "DES and Diffie-Hellman",
-                "B": "CAST-128, IDEA, and 3DES",
+                "A": "CAST-128, IDEA, and 3DES",
+                "B": "DES and Diffie-Hellman",
                 "C": "MAC and DSS",
                 "D": "RSA and SHA-1"
             },
-            "solution": "B"
+            "solution": "A"
         },
         {
             "question": "What is the purpose of a data dictionary in the context of an application system?",
             "answers": {
-                "A": "To enforce the organization's security policy and procedures",
-                "B": "To record data structures used by an application",
+                "A": "To record data structures used by an application",
+                "B": "To enforce the organization's security policy and procedures",
                 "C": "To provide checks for data consistency and accuracy",
                 "D": "To maintain program comments and database consistency"
             },
-            "solution": "B"
+            "solution": "A"
         },
         {
             "question": "What type of network architecture is designed to factor in the different stages of an attack life cycle and provide visibility into the environment for monitoring?",
@@ -433,22 +473,22 @@
         {
             "question": "What is the primary goal of the birthday paradox in the context of cryptography?",
             "answers": {
-                "A": "Generating cryptographic keys",
-                "B": "Finding collisions in hash functions",
+                "A": "Finding collisions in hash functions",
+                "B": "Generating cryptographic keys",
                 "C": "Breaking symmetric encryption",
                 "D": "Cracking digital signatures"
             },
-            "solution": "B"
+            "solution": "A"
         },
         {
             "question": "What is the goal of electronic warfare?",
             "answers": {
-                "A": "To intercept and analyze enemy communications",
-                "B": "To control the electromagnetic spectrum",
+                "A": "To control the electromagnetic spectrum",
+                "B": "To intercept and analyze enemy communications",
                 "C": "To protect friendly communications from interception",
                 "D": "To physically destroy the enemy's communications networks"
             },
-            "solution": "B"
+            "solution": "A"
         },
         {
             "question": "What is the main purpose of enumeration?",
@@ -523,22 +563,22 @@
         {
             "question": "What does a complete set of subcribs of a crib in columnar transposition allow for?",
             "answers": {
-                "A": "Determining the plaintext directly",
-                "B": "Partial determination of the transposition",
+                "A": "Partial determination of the transposition",
+                "B": "Determining the plaintext directly",
                 "C": "Encrypting the ciphertext",
                 "D": "Randomizing the encryption process"
             },
-            "solution": "B"
+            "solution": "A"
         },
         {
             "question": "Which network security control system is used to detect the signature of known attacks at the network level?",
             "answers": {
-                "A": "Anti-virus System",
-                "B": "Intrusion Detection System (IDS)",
+                "A": "Intrusion Detection System (IDS)",
+                "B": "Anti-virus System",
                 "C": "Firewall",
                 "D": "Virtual Private Network (VPN)"
             },
-            "solution": "B"
+            "solution": "A"
         },
         {
             "question": "The Clark-Wilson model focuses on data's:",
@@ -566,7 +606,7 @@
                 "A": "Certificate authority",
                 "B": "Hub",
                 "C": "Public key",
-                "D": "Key"
+                "D": "Police"
             },
             "solution": "A"
         },
@@ -583,12 +623,12 @@
         {
             "question": "What is the purpose of Mobile Device Management (MDM) in an enterprise environment?",
             "answers": {
-                "A": "To remote lock and wipe personal devices",
-                "B": "To push security policies and manage mobile devices",
+                "A": "To push security policies and manage mobile devices",
+                "B": "To remote lock and wipe personal devices",
                 "C": "To encourage the use of unsecured devices",
                 "D": "To track users' personal activities on their devices"
             },
-            "solution": "B"
+            "solution": "A"
         },
         {
             "question": "What is the main purpose of region coding in DVD technology?",
@@ -648,7 +688,7 @@
                 "C": "Select an initial set of baseline security controls",
                 "D": "Categorize the information system"
             },
-            "solution": "D"
+            "solution": "C"
         },
         {
             "question": "Which of the following best identifies the benefit of a passphrase?",
@@ -659,16 +699,6 @@
                 "D": "It is easy to remember."
             },
             "solution": "D"
-        },
-        {
-            "question": "What is the main focus of physical-layer security constructs in the context of air traffic communication networks?",
-            "answers": {
-                "A": "Mitigating cyber-physical attacks",
-                "B": "Ensuring secure wireless communication protocols",
-                "C": "Preventing unauthorized access to the networks",
-                "D": "Managing network congestion"
-            },
-            "solution": "A"
         },
         {
             "question": "What is an essential consideration when evaluating the costs and benefits of security measures?",
@@ -693,12 +723,12 @@
          {
             "question": "Which wireless networking standard operates solely at 5 GHz?",
             "answers": {
-                "A": "802.11ax",
-                "B": "802.11ac",
+                "A": "802.11ac",
+                "B": "802.11ax",
                 "C": "802.11n",
                 "D": "802.11g"
             },
-            "solution": "B"
+            "solution": "A"
         },
         {
             "question": "Which organization initiated efforts to develop the network communication model?",
@@ -713,19 +743,19 @@
         {
             "question": "What technique does nonstatistical sampling rely on to help focus on specific events?",
             "answers": {
-                "A": "Syslog",
-                "B": "Clipping Levels",
+                "A": "Clipping Levels",
+                "B": "Syslog",
                 "C": "Traffic Analysis",
                 "D": "Monitoring Tools"
             },
-            "solution": "B"
+            "solution": "A"
         },
         {
-            "question": "Which organization provides the Trustworthy Software Framework (TSFr)?",
+            "question": "Which organization provides the Trustworthy Software Framework?",
             "answers": {
                 "A": "Software Engineering Institute (SEI)",
                 "B": "National Cyber Security Centre (NCSC)",
-                "C": "Trustworthy Software Foundation",
+                "C": "Trustworthy Software Foundation (TSF)",
                 "D": "US National Institute of Standards and Technology (NIST)"
             },
             "solution": "C"
@@ -823,12 +853,12 @@
         {
             "question": "In the context of encryption, which type of key is used for both encryption and decryption of the same data?",
             "answers": {
-                "A": "Private key",
-                "B": "Symmetrical key",
+                "A": "Symmetrical key",
+                "B": "Private key",
                 "C": "Public key",
                 "D": "Asymmetrical key"
             },
-            "solution": "B"
+            "solution": "A"
         },
         {
             "question": "What schedule is recommended for the ethical hacking testing?",
@@ -883,22 +913,22 @@
         {
             "question": "Which framework offers guidelines specifically addressed towards information security, with widely-known standards such as BS 7799 and its descendants?",
             "answers": {
-                "A": "Committee of Sponsoring Organizations of the Treadway Commission",
-                "B": "ISO 27000",
+                "A": "ISO 27000",
+                "B": "Committee of Sponsoring Organizations of the Treadway Commission",
                 "C": "Basel II",
                 "D": "Balanced Scorecard"
             },
-            "solution": "B"
+            "solution": "A"
         },
         {
             "question": "What is the preferred encryption option for sending large amounts of data?",
             "answers": {
                 "A": "Asymmetric encryption",
                 "B": "Public Key Cryptography",
-                "C": "Symmetric encryption",
-                "D": "Diffie-Hellman scheme"
+                "C": "Diffie-Hellman scheme",
+                "D": "Symmetric encryption"
             },
-            "solution": "C"
+            "solution": "D"
         },
         {
             "question": "What is the process of converting sensitive data into an unreadable form to prevent unauthorized access?",
@@ -965,10 +995,10 @@
             "answers": {
                 "A": "login.microsoft.com",
                 "B": "www.microsoft.com",
-                "C": "microsoft.secure-login.com",
-                "D": "secure-login.microsoft.com"
+                "C": "secure-login.microsoft.com",
+                "D": "microsoft.secure-login.com"
             },
-            "solution": "C"
+            "solution": "D"
         },
         {
             "question": "What is the main purpose of server enumeration in the context of cybersecurity?",
@@ -1003,15 +1033,15 @@
         {
             "question": "Which action capability in panels grants the ability to insert a new row?",
             "answers": {
-                "A": "Update/Display All",
-                "B": "Add",
+                "A": "Add",
+                "B": "Update/Display All",
                 "C": "Update/Display",
                 "D": "Correction"
             },
-            "solution": "B"
+            "solution": "A"
         },
         {
-            "question": "What encryption algorithm relies on the creation of a hybrid cryptosystem?",
+            "question": "Which cryptographic algorithm is commonly used as the asymmetric component in a hybrid cryptosystem?",
             "answers": {
                 "A": "CBC (Cipher Block Chaining)",
                 "B": "DES (Data Encryption Standard)",
@@ -1047,16 +1077,6 @@
                 "B": "To prevent unauthorized access to network services",
                 "C": "To protect web applications from security threats",
                 "D": "To manage user authentication and authorization for web services"
-            },
-            "solution": "C"
-        },
-        {
-            "question": "What is a primary challenge when implementing a Time-Memory Trade-Off?",
-            "answers": {
-                "A": "Ensuring the attack covers enough of the key space",
-                "B": "Minimizing the number of encryption chains",
-                "C": "Maximizing the probability of success for a given amount of work",
-                "D": "Preventing the occurrence of false alarms"
             },
             "solution": "C"
         },
@@ -1103,12 +1123,12 @@
         {
             "question": "Which of the following is a good practice for detecting unauthorized changes on payment pages?",
             "answers": {
-                "A": "Reviewing audit logs once a month",
-                "B": "Implementing intrusion detection systems",
+                "A": "Implementing intrusion detection systems",
+                "B": "Reviewing audit logs once a month",
                 "C": "Regularly monitoring the system clock",
                 "D": "Installing additional antivirus software"
             },
-            "solution": "B"
+            "solution": "A"
         },
         {
             "question": "What is the term used to refer to an algorithm that can perform encryption or decryption?",
@@ -1143,12 +1163,12 @@
         {
             "question": "What is one key element in an IT security awareness program?",
             "answers": {
-                "A": "Entirely outsourced to external vendors",
-                "B": "Supported and led by example from management",
+                "A": "Supported and led by example from management",
+                "B": "Entirely outsourced to external vendors",
                 "C": "Quadratically linked with IT system patching",
                 "D": "Complex and technical in its delivery"
             },
-            "solution": "B"
+            "solution": "A"
         },
         {
             "question": "What must an information protection department continually provide to the entire organization to promote awareness of information protection issues?",
@@ -1163,12 +1183,12 @@
         {
             "question": "Which biometric property is concerned with the ability of users to resist or refuse to participate in a system that uses biometric identification?",
             "answers": {
-                "A": "Secondary use",
-                "B": "Autonomy of the users",
+                "A": "Autonomy of the users",
+                "B": "Secondary use",
                 "C": "Characteristic replacement",
                 "D": "Ease of use"
             },
-            "solution": "B"
+            "solution": "A"
         },
         {
             "question": "What is the term for the practice of requesting sensitive information from individuals in order to gain unauthorized access or misuse of their personal information?",
@@ -1223,22 +1243,22 @@
         {
             "question": "What system resource is typically used as bait for attackers in order to gather relevant information about attack processes and new malicious code?",
             "answers": {
-                "A": "Firewall",
-                "B": "Honeypot",
+                "A": "Honeypot",
+                "B": "Firewall",
                 "C": "Virtual Private Network (VPN)",
                 "D": "Intrusion Prevention System"
             },
-            "solution": "B"
+            "solution": "A"
         },
         {
             "question": "When segmenting internal traffic between layer 2 devices on the LAN, which network design element is most likely to be used?",
             "answers": {
-                "A": "DMZ",
-                "B": "VLAN",
+                "A": "VLAN",
+                "B": "DMZ",
                 "C": "Routing",
                 "D": "NAT"
             },
-            "solution": "B"
+            "solution": "A"
         },
         {
             "question": "Which choice is NOT an accurate description of C.I.A.?",
@@ -1541,7 +1561,7 @@
             "solution": "B"
         },
         {
-            "question": "How often should user accounts and access privileges to in-scope system components be reviewed to ensure appropriateness based on job function?",
+            "question": "How often should user accounts and access privileges to in-scope system components be reviewed under PCI DSS 4.0 to ensure they are appropriate based on job functions?",
             "answers": {
                 "A": "At least once every six months",
                 "B": "At least once every 18 months",
@@ -1621,22 +1641,12 @@
             "solution": "A"
         },
         {
-            "question": "Why is testing for class acceptance and recognition important in object-oriented design?",
-            "answers": {
-                "A": "To ensure consistency across platforms",
-                "B": "To allow developers to make multiple changes without touching every screen",
-                "C": "To demonstrate the adaptability of object-based applications",
-                "D": "To improve the speed of development"
-            },
-            "solution": "A"
-        },
-        {
             "question": "Which of the following is a common biometric factor used for authentication?",
             "answers": {
-                "A": "Account password.",
-                "B": "Email challenge.",
-                "C": "Device fingerprinting.",
-                "D": "Retina scans."
+                "A": "Account password",
+                "B": "Email challenge",
+                "C": "Device fingerprinting",
+                "D": "Retina scans"
             },
             "solution": "D"
         },
@@ -1811,7 +1821,7 @@
             "solution": "B"
         },
         {
-            "question": "Which of the following is considered an example of a physical intrusion detection method?",
+            "question": "Which of the following is NOT considered a type of motion detector?",
             "answers": {
                 "A": "Audio detection",
                 "B": "Smoke detection",
@@ -1838,7 +1848,7 @@
                 "C": "Private",
                 "D": "Confidential/Proprietary"
             },
-            "solution": "C"
+            "solution": "D"
         },
         {
             "question": "What property must a cryptographic hash function provide?",
@@ -1913,10 +1923,10 @@
         {
             "question": "What is the role of a VPN (Virtual Private Network) in cybersecurity?",
             "answers": {
-                "A": "To boost network performance by bypassing firewalls and filters.",
-                "B": "To provide access to confidential data without authentication.",
-                "C": "To establish secure and encrypted connections over a public network, such as the internet.",
-                "D": "To create a secluded network for non-sensitive data."
+                "A": "To boost network performance by bypassing firewalls and filters",
+                "B": "To provide access to confidential data without authentication",
+                "C": "To establish secure and encrypted connections over a public network, such as the internet",
+                "D": "To create a secluded network for non-sensitive data"
             },
             "solution": "C"
         },
@@ -1998,17 +2008,17 @@
                 "C": "Protection of the physical environment, monitoring and control of access, security monitoring and metrics.",
                 "D": "Policies related to data security, network security, and physical security."
             },
-            "solution": "D"
+            "solution": "A"
         },
         {
-            "question": "Which action can an adversary not perform in the Dolev-Yao adversary model for network security?",
+            "question": "Which action can an adversary perform in the Dolev-Yao adversary model?",
             "answers": {
-                "A": "Delete",
-                "B": "Forge",
-                "C": "Replicate",
-                "D": "Eavesdrop"
+                "A": "Forge",
+                "B": "Delete",
+                "C": "Eavesdrop",
+                "D": "All of the above"
             },
-            "solution": "C"
+            "solution": "D"
         },
         {
             "question": "Which of the following can prevent session hijacking?",
@@ -2544,9 +2554,9 @@
             "question": "What is the primary goal of Configuration Status Accounting?",
             "answers": {
                 "A": "To trace system changes and establish the history of any developmental problems and associated fixes",
-                "B": "To establish the granularity of recorded information and shape the accuracy and usefulness of the audit function",
-                "C": "To monitor the status of current changes as they move through the configuration control process",
-                "D": "To ensure that system changes are approved before being implemented, and implement them completely and accurately"
+                "B": "To monitor the status of current changes as they move through the configuration control process",
+                "C": "Both A and B",
+                "D": "Only B is correct"
             },
             "solution": "C"
         },
@@ -3143,12 +3153,12 @@
         {
             "question": "What is the primary function of the National Software Reference Library (NSRL) in digital forensics?",
             "answers": {
-                "A": "Assisting in identifying known file remnants",
-                "B": "Filtering known files from a forensic target",
-                "C": "Validating data integrity using cryptographic hashes",
-                "D": "Providing a set of known data artifacts for hashing"
+                "A": "Maintaining a repository of known software, file profiles, and file signatures for computer forensic investigations",
+                "B": "Developing cryptographic algorithms for secure communications",
+                "C": "Providing tools to automatically repair damaged files in forensic investigations",
+                "D": "Creating a database of unidentified malware for cybersecurity research"
             },
-            "solution": "B"
+            "solution": "A"
         },
         {
             "question": "What is the primary purpose of a spamming attack in cybersecurity?",
@@ -3461,14 +3471,14 @@
             "solution": "D"
         },
         {
-            "question": "What is the Cloud Security Alliance's definition of Security as a Service (SecaaS)?",
+            "question": "What is the term for Security as a Service (SECaaS)?",
             "answers": {
                 "A": "The implementation of intrusion detection systems and prevention systems in a cloud environment",
-                "B": "The provision of security applications and services via the cloud to cloud-based infrastructure and software",
+                "B": "A modern protocol solution designed to secure communications in the cloud through encryption",
                 "C": "A suite of security offerings provided by the cloud service provider to offload security responsibility from the client",
                 "D": "A comprehensive set of standards and recommendations for cloud computing security"
             },
-            "solution": "B"
+            "solution": "C"
         },
         {
             "question": "Of which control is WPA TKIP an example?",
@@ -3811,16 +3821,6 @@
             "solution": "B"
         },
         {
-            "question": "What is the primary disadvantage of open-source software?",
-            "answers": {
-                "A": "Potential for delayed vulnerability discovery",
-                "B": "Rapid feature enhancements",
-                "C": "Dependency on community scrutiny",
-                "D": "Complex pricing models"
-            },
-            "solution": "A"
-        },
-        {
             "question": "Sometimes basic fencing does not provide the level of protection a company requires. Which of the following combines the functions of intrusion detection systems and fencing?",
             "answers": {
                 "A": "PIDAS",
@@ -3833,12 +3833,12 @@
         {
             "question": "What is the characteristic of a network technology that uses a single carrier frequency and requires all stations attached to the network to participate in every transmission?",
             "answers": {
-                "A": "Broadband technology",
-                "B": "Broadcast storm",
-                "C": "Broadband",
-                "D": "Carrier sense, multiple access"
+                "A": "GSM technology",
+                "B": "Multiband",
+                "C": "Baseband",
+                "D": "None of the above"
             },
-            "solution": "D"
+            "solution": "C"
         },
         {
             "question": "What is the main purpose of W⊕X memory policy in operating systems?",
@@ -4031,7 +4031,7 @@
             "solution": "D"
         },
         {
-            "question": "What is a common cybersecurity measure to prevent unauthorized access to a system?",
+            "question": "What is a common first line of defense in cybersecurity to prevent unauthorized access to a system?",
             "answers": {
                 "A": "Firewall",
                 "B": "Public Wi-Fi",
@@ -4104,8 +4104,8 @@
             "question": "What term refers to the occurrence of a security mechanism being bypassed or thwarted by a threat agent?",
             "answers": {
                 "A": "Breach",
-                "B": "Intrusion",
-                "C": "Compromise",
+                "B": "Esposure",
+                "C": "Sabotage",
                 "D": "Event"
             },
             "solution": "A"
@@ -4161,24 +4161,14 @@
             "solution": "A"
         },
         {
-            "question": "Which encryption algorithm was the subject of the paper 'The Design of Rijndael: AES–The Advanced Encryption Standard'?",
+            "question": "Which encryption algorithm is commonly referred to as Rijndael?",
             "answers": {
                 "A": "RSA",
-                "B": "Rijndael",
+                "B": "AES",
                 "C": "MD5",
                 "D": "3DES"
             },
             "solution": "B"
-        },
-        {
-            "question": "Which feature is not typically provided by card-only access control systems?",
-            "answers": {
-                "A": "Individual identification",
-                "B": "Timed antipass-back",
-                "C": "Error alarms",
-                "D": "Weatherproof units"
-            },
-            "solution": "C"
         },
         {
             "question": "Which type of botnet represents a major shift towards a more stealthy control method and provides anonymity to the botmaster by appearing as just another node in the network?",
@@ -4273,12 +4263,12 @@
         {
             "question": "What best describes the ideal approach to securing an infrastructure?",
             "answers": {
-                "A": "Developing a plan to address the business needs of the organization.",
-                "B": "Balancing the cost of security and the expense of incurring risk.",
-                "C": "Implementing a hierarchical strategy to identify assets and threats.",
-                "D": "Identifying vulnerabilities, threats, and countermeasures."
+                "A": "Identify the vulnerabilities and threats that the infrastructure faces",
+                "B": "Organize the risks in a hierarchy that reflects the business needs of the organization",
+                "C": "Both A and B are essential steps for effectively securing an infrastructure",
+                "D": "None of the above"
             },
-            "solution": "A"
+            "solution": "C"
         },
         {
             "question": "What is physical security?",
@@ -4576,7 +4566,7 @@
                 "A": "Integrity",
                 "B": "Utility",
                 "C": "Confidentiality",
-                "D": "Authenticity"
+                "D": "Availability"
             },
             "solution": "B"
         },
@@ -4863,12 +4853,12 @@
         {
             "question": "What were some of the primary objectives of the early Internet that did not prioritize commerce and security?",
             "answers": {
-                "A": "Ensuring secure transactions for commercial activities",
+                "A": "Providing a means for computers from different manufacturers and different networks to talk to one another",
                 "B": "Providing a vast communication medium to share electronic information",
                 "C": "Creating a multiple-path network that could survive localized outages",
-                "D": "Providing a means for computers from different manufacturers and different networks to talk to one another"
+                "D": "All of the above"
             },
-            "solution": "A"
+            "solution": "D"
         },
         {
             "question": "What is the main limitation of the one-time pad encryption scheme?",
@@ -4911,7 +4901,7 @@
             "solution": "B"
         },
         {
-            "question": "Which source of storage on a system is most volatile and should be dumped to a file immediately during forensic processes?",
+            "question": "Which type of system storage is the MOST volatile during forensic investigations?",
             "answers": {
                 "A": "Virtual memory",
                 "B": "RAM",
@@ -5091,14 +5081,14 @@
             "solution": "B"
         },
         {
-            "question": "Which neural network is composed of simple processing elements and weighted connections between these elements?",
+            "question": "Which term best describes a system composed of simple processing elements and weighted connections between them?",
             "answers": {
-                "A": "Multilayer backpropagation network",
-                "B": "Perceptron",
-                "C": "Radial basis function network",
-                "D": "Artificial recurrent neural network"
+                "A": "Connected Computation Graphs",
+                "B": "Neural networks",
+                "C": "Weighted Matrices",
+                "D": "All of the above"
             },
-            "solution": "A"
+            "solution": "B"
         },
         {
             "question": "What is the term for the shared resources in cloud environments?",
@@ -5108,7 +5098,7 @@
                 "C": "Resource pooling",
                 "D": "Multi-tenancy"
             },
-            "solution": "D"
+            "solution": "C"
         },
         {
             "question": "What is the characteristic of a botnet?",
@@ -5369,17 +5359,7 @@
                 "D": "Authentication"
             },
             "solution": "B"
-        },
-        {
-            "question": "According to the risk governance framework, what is the phase where decisions are made about risk management plan and implementation?",
-            "answers": {
-                "A": "Maintain",
-                "B": "Prepare",
-                "C": "Appraisal",
-                "D": "Management processes"
-            },
-            "solution": "A"
-        },
+        }, 
         {
             "question": "What does IPsec stand for?",
             "answers": {
@@ -5868,7 +5848,7 @@
                 "C": "Class A fires",
                 "D": "Combustible metals fire"
             },
-            "solution": "B"
+            "solution": "A"
         },
         {
             "question": "Which of these is an example of an application layer gateway?",
@@ -6514,11 +6494,11 @@
             "question": "Cloud technologies are used to accomplish which of the following?",
             "answers": {
                 "A": "Cut costs",
-                "B": "Transfer legal responsibility of data to a third party",
+                "B": "Increase management options",
                 "C": "Offload operations onto a third party",
-                "D": "Increase management options"
+                "D": "All of the above"
             },
-            "solution": "C"
+            "solution": "D"
         },
         {
             "question": "What does precision measure in the context of Intrusion Detection Systems?",
@@ -6528,7 +6508,7 @@
                 "C": "The fraction of real alerts in all alerts",
                 "D": "The fraction of real alerts over all relevant information"
             },
-            "solution": "B"
+            "solution": "C"
         },
         {
             "question": "What is the purpose of hashing in cryptography?",
@@ -6791,12 +6771,12 @@
             "solution": "C"
         },
         {
-            "question": "What is the recommended method for controlling dial-up access to a computer system?",
+            "question": "What is the most effective method for controlling dial-up access to a computer system?",
             "answers": {
-                "A": "Intercepting calls and verifying the identity of the caller",
+                "A": "Intercepting calls and verifying the identity of the caller (using a dynamic password mechanism)",
                 "B": "Adding modems to personal computers",
                 "C": "Implementing call-back systems",
-                "D": "Using a token programmed to generate passwords randomly"
+                "D": "Using a different phone number each time"
             },
             "solution": "A"
         },
@@ -6881,7 +6861,7 @@
             "solution": "C"
         },
         {
-            "question": "Which web server technology is estimated to run on 60% of web servers worldwide?",
+            "question": "In 2016, which web server technology was estimated to be running on 60% of web servers worldwide?",
             "answers": {
                 "A": "nginx",
                 "B": "Apache",
@@ -6914,11 +6894,11 @@
             "question": "Which system does Kerberos primarily authenticate?",
             "answers": {
                 "A": "Web servers",
-                "B": "Network services",
+                "B": "Client-server applications and user identities",
                 "C": "Database systems",
-                "D": "User accounts"
+                "D": "Only User accounts"
             },
-            "solution": "D"
+            "solution": "B"
         },
         {
             "question": "Which device is used to connect two or more hosts or network segments together at the physical and link layer level?",
@@ -6926,20 +6906,11 @@
                 "A": "Router",
                 "B": "Firewall",
                 "C": "Hub",
-                "D": "Switch"
-            },
-            "solution": "C"
-        },
-        {
-            "question": "What is the main purpose of spam detection systems in distinguishing legitimate messages from spam?",
-            "answers": {
-                "A": "Correlating hosts that send very similar traffic to the victim at the same time",
-                "B": "Analysing the statistical properties of traffic",
-                "C": "Provision of real-world observations on attack tactics and techniques",
-                "D": "Focusing on analyzing the email contents to distinguish legitimate messages from spam"
+                "D": "Bridge"
             },
             "solution": "D"
         },
+        
         {
             "question": "What does 'cyber stalking' refer to in the context of cybersecurity?",
             "answers": {
@@ -6971,14 +6942,14 @@
             "solution": "B"
         },
         {
-            "question": "What is an example of a potential consequence of an integer overflow?",
+            "question": "What is an example of a potential consequence of a buffer overflow?",
             "answers": {
-                "A": "Causing denial of service (DoS) by consuming excessive CPU resources.",
-                "B": "Bypassing the authentication process in a program.",
-                "C": "Gaining unauthorized access to sensitive files.",
-                "D": "Allowing an attacker to execute arbitrary code on the system."
+                "A": "Causing denial of service (DoS) by consuming excessive CPU resources",
+                "B": "Bypassing the authentication process in a program",
+                "C": "Gaining unauthorized access to sensitive files",
+                "D": "All the listed options are possible consequences of a buffer overflow"
             },
-            "solution": "A"
+            "solution": "D"
         },
         {
             "question": "What is the purpose of applying the function F in a Feistel cipher?",
@@ -7128,7 +7099,7 @@
                 "C": "Authentication, accountability, audit",
                 "D": "Encryption, checksums, digital signatures"
             },
-            "solution": "C"
+            "solution": "A"
         },
         {
             "question": "What is the primary goal of the reconnaissance phase during a penetration test?",
@@ -7181,7 +7152,7 @@
             "solution": "A"
         },
         {
-            "question": "Which type of activity might an intrusion detection system (IDS) miss if it does not have a particular attack's signature in its database?",
+            "question": "What does an intrusion detection system (IDS) identify an attack as if it does not have the attack's signature in its database?",
             "answers": {
                 "A": "Legitimate activity",
                 "B": "Behavioral attacks",
@@ -7481,21 +7452,11 @@
             "solution": "B"
         },
         {
-            "question": "The crossover error rate (CER) _____ _ _.",
-            "answers": {
-                "A": "Is the point at which FRR and FAR are equal",
-                "B": "Is concealed in a Trojan horse program",
-                "C": "Is hidden for out-of-band communication",
-                "D": "May be hidden by a stealth virus"
-            },
-            "solution": "A"
-        },
-        {
             "question": "What is the primary advantage of capabilities in managing access control compared to access control lists (ACLs)?",
             "answers": {
-                "A": "Capabilities provide more efficient runtime security checking",
+                "A": "Capabilities provide more efficient runtime security checking and capabilities are easier to delegate",
                 "B": "Capabilities allow for easier tracking of user access permissions",
-                "C": "Capabilities are easier to delegate for specific time-limited access",
+                "C": "There is no difference between capabilities and ACLs, and their strengths and weaknesses are essentially the same",
                 "D": "Capabilities simplify the management of large access control lists"
             },
             "solution": "A"
@@ -7541,7 +7502,7 @@
             "solution": "B"
         },
         {
-            "question": "What is the role of the 64-bit value Wt used in each of the 80 rounds in SHA-512??",
+            "question": "What is the role of the 64-bit value Wt used in each of the 80 rounds in SHA-512?",
             "answers": {
                 "A": "It represents the output of the final hash value after processing all message blocks.",
                 "B": "A 64-bit value derived from the current 1024-bit block being processed, using a message schedule.",
@@ -7561,7 +7522,7 @@
             "solution": "D"
         },
         {
-            "question": "Which component of an intrusion detection system (IDS) detects anomalous traffic on the network?",
+            "question": "Snort is an open-source Intrusion Detection System (IDS) consisting of four components. Which component is responsible for detecting anomalous network traffic?",
             "answers": {
                 "A": "Preprocessor",
                 "B": "Alerts",
@@ -7641,7 +7602,7 @@
             "solution": "C"
         },
         {
-            "question": "What technique can forestall data modification and theft even after an unauthorized dial-up user accesses a computer system?",
+            "question": "What security measure can prevent data alteration and theft even if an unauthorized remote user gains access to a computer system?",
             "answers": {
                 "A": "Biometrics",
                 "B": "Physical Devices",
@@ -7683,10 +7644,10 @@
         {
             "question": "Which type of evaluation was developed by the NSA to assess an organization's security posture and combines a subset of the SSE-CMM with a specialized criticality matrix?",
             "answers": {
-                "A": "NIACAP",
-                "B": "IAIM",
-                "C": "DITSCAP",
-                "D": "OCTAVE"
+                "A": "NIACAP (National Information Assurance Certification and Accreditation Process)",
+                "B": "Infosec Assessment Methodology (IAM)",
+                "C": "DITSCAP (DoD Information Technology Security Certification and Accreditation Process)",
+                "D": "OCTAVE (Operationally Critical Threat, Asset, and Vulnerability Evaluation)"
             },
             "solution": "B"
         },
@@ -7841,7 +7802,7 @@
             "solution": "C"
         },
         {
-            "question": "How might a publisher framing a competitor for click fraud benefit from the situation?",
+            "question": "How might a publisher benefit financially by framing a competitor for click fraud?",
             "answers": {
                 "A": "Improve their reputation",
                 "B": "Harm the competitor",
@@ -8385,10 +8346,10 @@
             "answers": {
                 "A": "Asset inventory management",
                 "B": "Biometric authentication",
-                "C": "Facility maintenance",
-                "D": "Security awareness training"
+                "C": "Security awareness training",
+                "D": "A, B, and C each serve distinct functions, yet all three can be essential components of a comprehensive physical security strategy"
             },
-            "solution": "B"
+            "solution": "D"
         },
         {
             "question": "Which configuration file is used for specifying DNS spoofing mappings in Ettercap?",
@@ -8791,16 +8752,6 @@
             "solution": "C"
         },
         {
-            "question": "In the context of computing and microprocessors, what is essential to the principle of 'connecting all to all'?",
-            "answers": {
-                "A": "Interconnected software.",
-                "B": "Universal memory storage.",
-                "C": "Complex hardware communication channels.",
-                "D": "Effective communication protocols."
-            },
-            "solution": "A"
-        },
-        {
             "question": "What type of testing is carried out by examining the code without executing the program?",
             "answers": {
                 "A": "Dynamic Analysis",
@@ -8918,7 +8869,7 @@
                 "C": "Match inputs to a known pattern learned through previous experiences.",
                 "D": "Model acceptable system activity and identify behavior that does not fit that model."
             },
-            "solution": "A"
+            "solution": "B"
         },
         {
             "question": "Which term describes the practice of tricking individuals into divulging confidential information or login credentials?",
@@ -9151,7 +9102,7 @@
             "solution": "A"
         },
         {
-            "question": "Who is responsible for implementing the organization's planning, budgeting, and performance, including its information security components?",
+            "question": "Who is responsible for implementing the planning, budgeting, and performance of the organization's information security components?",
             "answers": {
                 "A": "MGR",
                 "B": "CEO",
@@ -9973,12 +9924,12 @@
         {
             "question": "What is a major drawback of intrusion detection technology?",
             "answers": {
-                "A": "Increased detection capability",
+                "A": "False positives",
                 "B": "Performance decrements",
-                "C": "Vulnerability to tampering",
-                "D": "Vulnerability to attack"
+                "C": "Initial cost",
+                "D": "A,B and C"
             },
-            "solution": "C"
+            "solution": "D"
         },
         {
             "question": "What propagation technique does the Good Times virus use to spread infection?",
@@ -10081,6 +10032,136 @@
             "solution": "D"
         },
         {
+            "question": "According to the risk governance framework, what is the phase where decisions are made about risk management plan and implementation?",
+            "answers": {
+                "A": "Characterisation",
+                "B": "Management processes",
+                "C": "Appraisal",
+                "D": "None of the above"
+            },
+            "solution": "B"
+        },
+        {
+            "question": "What is the crossover error rate (CER)?",
+            "answers": {
+                "A": "Is the point at which FRR and FAR are equal",
+                "B": "Is concealed in a Trojan horse program",
+                "C": "Is hidden for out-of-band communication",
+                "D": "May be hidden by a stealth virus"
+            },
+            "solution": "A"
+        },
+        {
+            "question": "This IP address A address of 2002:0000:0000:3210:0800:200C:00CF:1234 could be shortened to -----.",
+            "answers": {
+                "A": "2002: : 3210: 800: 200C:CF: 1234",
+                "B": "2002: : 3210: 0800: 200C:OOCF: 1234",
+                "C": "2002: : 321 : 8: 200C:CF: 1234",
+                "D": "2002: : 3210: 8: 200C:CF: 1234"
+            },
+            "solution": "A"
+        },
+        {
+            "question": "A firewall can either be software configured on a computer system or a network appliance. Both are designed to block unauthorized access while permitting authorized communications. The firewall which dynamically open ports is called a?",
+            "answers": {
+                "A": "Stateless",
+                "B": "Packet Filter",
+                "C": "Stateful",
+                "D": "Proxy"
+            },
+            "solution": "C"
+        },
+        {
+            "question": "Which hashing algorithm would you suggest for securing passwords in 2024?",
+            "answers": {
+                "A": "MD5",
+                "B": "SHA2-256",
+                "C": "bcrypt",
+                "D": "SHA1"
+            },
+            "solution": "C"
+        },
+        {
+            "question": "Which IPSec component defines the security services and parameters agreed upon by two entities to communicate securely?",
+            "answers": {
+                "A": "SAML (Security Association Markup Language)",
+                "B": "Tunnel negotiation",
+                "C": "Oakley negotiation",
+                "D": "Security Association (SA)"
+            },
+            "solution": "D"
+        },
+        {
+            "question": "Unauthorized access points created by programmers as a rescue option or malicious programs inserted by an attacker that allows an unauthorized entity to gain access into a system or program are called?",
+            "answers": {
+                "A": "Trojan Horse",
+                "B": "Back Door",
+                "C": "Cracked Door",
+                "D": "Remote Access Tool"
+            },
+            "solution": "B"
+        },
+        {
+            "question": "Sending messages to Bluetooth-capable devices without the permission of the owner/user is a prank called ___ _.",
+            "answers": {
+                "A": "Blue Snarfing",
+                "B": "Blue Boffing",
+                "C": "Blue Fishing",
+                "D": "Blue Jacking"
+            },
+            "solution": "D"
+        },
+        {
+            "question": "Which of the following is a proactive long term plan regarding the ability of critical business functions to continue in operation even in the face of serious threats.",
+            "answers": {
+                "A": "Business Resumption Plan",
+                "B": "Business Continuity Plan",
+                "C": "Incident Response Plan",
+                "D": "Disaster Recovery Plan"
+            },
+            "solution": "B"
+        },
+        {
+            "question": "What is the process of storing copies of private keys by a certificate authority called?",
+            "answers": {
+                "A": "Software Escrow",
+                "B": "Key Continuity",
+                "C": "Key Escrow",
+                "D": "Key Journaling"
+            },
+            "solution": "C"
+        },
+        {
+            "question": "A trusted authority in a network that generates asymmetric key pairs issues and manages security credentials publishes a CRL and more is a __ _.",
+            "answers": {
+                "A": "Registration Authority",
+                "B": "Certificate Authority",
+                "C": "Online Certificate Status Authority",
+                "D": "Certification Authority"
+            },
+            "solution": "B"
+        },
+        {
+            "question": "Cloud computing can be defined as virtual servers resources applications services or anything you consume over the Internet. Which system offers a capability to the consumer to provision processing storage networks and other fundamental computing resources?",
+            "answers": {
+                "A": "SaaS",
+                "B": "MaaS",
+                "C": "PaaS",
+                "D": "laaS"
+            },
+            "solution": "D"
+        },
+        {
+            "question": "Common Criteria (CC) was developed as an international IT evaluation criterion. Common Criteria is designed around Trusted Computing Base (TCB). EALs provide a specific level of confidence in the security functions of the system being analyzed. Which level would be most appropriate for a high security environment?",
+            "answers": {
+                "A": "EAL Level 1",
+                "B": "EAL Level 4",
+                "C": "EAL Level 5",
+                "D": "EAL Level 2"
+            },
+            "solution": "C"
+        },
+        {
             "question": "What is the purpose of having formal engineering techniques and tools embedded in the software development process?",
             "answers": {
                 "A": "To demonstrate the organization's commitment to quality.",
@@ -10088,7 +10169,7 @@
                 "C": "To catch errors early in the software development process.",
                 "D": "To maximize the speed of the software development process."
             },
-            "solution": "B"
+            "solution": "C"
         },
         {
             "question": "What is the Platform for Privacy Preferences Project (P3P) designed for?",
@@ -10183,7 +10264,7 @@
         {
             "question": "Which of the following tools is used for forensic file recovery?",
             "answers": {
-                "A": "FTK Imager",
+                "A": "Forensic File Recoverer 2.3",
                 "B": "OpenVPN",
                 "C": "PyCrypto",
                 "D": "Scalpel"
@@ -10701,7 +10782,7 @@
             "solution": "A"
         },
         {
-            "question": "You are working on a server and are busy implementing a network intrusion detection system on the network. You need to monitor the network traffic from the server. What mode should you configure the network adapter to work in?",
+            "question": "You are setting up a network intrusion detection system on a server and need to monitor the server's network traffic. Which mode should you configure the network adapter to operate in?",
             "answers": {
                 "A": "Full-duplex mode",
                 "B": "Auto-configuration mode",
@@ -10958,7 +11039,7 @@
                 "C": "To ensure the availability and functionality of systems",
                 "D": "To guarantee that sensitive information is secured and can be quickly restored"
             },
-            "solution": "D"
+            "solution": "B"
         },
         {
             "question": "The Brain virus is an example of which type of malware?",
@@ -11031,16 +11112,6 @@
             "solution": "A"
         },
         {
-            "question": "Which of the following is a key finding about the causes of civil conflict based on an in-depth study?",
-            "answers": {
-                "A": "Civil conflicts are predominantly caused by economic grievances.",
-                "B": "Civil conflicts are mostly caused by political grievances and inequality.",
-                "C": "Civil conflicts are mostly economically motivated and sustained.",
-                "D": "Civil conflicts are largely driven by ideological and religious motives."
-            },
-            "solution": "C"
-        },
-        {
             "question": "What role does encryption play in achieving data confidentiality in cybersecurity?",
             "answers": {
                 "A": "It ensures that data is not altered or tampered with during transit",
@@ -11079,16 +11150,6 @@
                 "D": "Subjects should be granted access only to information and resources they need to perform their assigned work"
             },
             "solution": "B"
-        },
-        {
-            "question": "Which approach is used to counter aggregation threats that arise when databases are aggregated together?",
-            "answers": {
-                "A": "Creating multiple linked records with restricted access",
-                "B": "Maintaining beneficiary-encrypted records",
-                "C": "Implementing broad public access to records",
-                "D": "Implementing effective rate controls and alarms"
-            },
-            "solution": "A"
         },
         {
             "question": "In cases involving personal injury, which of the following is a measure of harm often used to calculate the value of the harm suffered by the victim?",
@@ -11264,7 +11325,7 @@
             "question": "What is the purpose of the session key in the Kerberos authentication process?",
             "answers": {
                 "A": "To authenticate the server to the user",
-                "B": "To securely distribute keys and cookies between the client, AS, and TGS",
+                "B": "That common session key can be used for protecting subsequent messages between the client and the service",
                 "C": "To encrypt the ticket-granting ticket sent by the AS to the client",
                 "D": "To prove the identity of the client to the TGS"
             },
@@ -11341,14 +11402,14 @@
             "solution": "C"
         },
         {
-            "question": "Which security principle suggests that the operating system code and the application run in a single domain, with the libOS code as small as possible?",
+            "question": "Which security principle emphasizes keeping the system design as simple and minimal as possible?",
             "answers": {
                 "A": "Principle of Psychological Acceptability",
                 "B": "Principle of Least Privilege",
                 "C": "Principle of Economy of Mechanism",
                 "D": "Principle of Open Design"
             },
-            "solution": "D"
+            "solution": "C"
         },
         {
             "question": "Which term describes the process of recovering the plaintext from the ciphertext?",
@@ -11720,16 +11781,7 @@
             },
             "solution": "A"
         },
-        {
-            "question": "What is the first step in the investigative process of a computer crime?",
-            "answers": {
-                "A": "Conduct an internal investigation",
-                "B": "Create an Incident Response Plan",
-                "C": "Identify any potential suspects",
-                "D": "Report the crime to management"
-            },
-            "solution": "C"
-        },
+    
         {
             "question": "Which type of access control is based on the individual's role or title within the organization?",
             "answers": {
@@ -11751,14 +11803,14 @@
             "solution": "A"
         },
         {
-            "question": "What type of authentication is commonly used for interactive logins and web encryption?",
+            "question": "What techniques can be used for authentication?",
             "answers": {
-                "A": "Challenge-Response Passwords",
-                "B": "Secure Sockets Layer (SSL) Authentication",
+                "A": "Challenge-Response Authentication",
+                "B": "Password Authentication",
                 "C": "Public-Key Authentication",
-                "D": "Password Authentication"
+                "D": "All of the above can be used"
             },
-            "solution": "B"
+            "solution": "D"
         },
         {
             "question": "What is the core of the security life-cycle model?",
@@ -12081,16 +12133,6 @@
             "solution": "D"
         },
         {
-            "question": "What is the primary security concern raised by the complexities of a traditional network with on-device configuration and limitations to the flexibility of the network?",
-            "answers": {
-                "A": "The network may be open to eavesdropping and unauthorized access if not properly secured",
-                "B": "The network may suffer from a lack of encryption, access control, and message authentication services",
-                "C": "The network may require specialized hardware to handle unique deployments of alternate networking protocols",
-                "D": "The network may be forced to stick with a single device vendor, limiting the flexibility of the network"
-            },
-            "solution": "D"
-        },
-        {
             "question": "In a security solution, which of the following is the weakest element?",
             "answers": {
                 "A": "Security policies",
@@ -12101,11 +12143,11 @@
             "solution": "B"
         },
         {
-            "question": "What is the primary responsibility of a chief privacy officer in an organization with regards to privacy policies?",
+            "question": "What is the primary responsibility of a chief privacy officer (CPO) in an organization with regards to privacy policies?",
             "answers": {
                 "A": "Implementing and maintaining the privacy policy",
                 "B": "Formulating privacy policies for the organization",
-                "C": "Auditing the organization's compliance to privacy principles",
+                "C": "Options A, B, and D are also correct",
                 "D": "Receiving and responding to complaints about privacy policy"
             },
             "solution": "C"
@@ -12113,8 +12155,8 @@
         {
             "question": "Which security mechanism is designed to restrict access to a network based on predetermined criteria?",
             "answers": {
-                "A": "Intrusion Detection System",
-                "B": "Firewall",
+                "A": "Steganography",
+                "B": "Network Restriction Mechanism",
                 "C": "Access Control",
                 "D": "Cryptography"
             },
@@ -12585,7 +12627,7 @@
             "answers": {
                 "A": "To prevent the loss of important data",
                 "B": "To ensure clear communication within the organization",
-                "C": "To have a written record for regulatory compliance",
+                "C": "To have a written record of the procedures to follow when disaster strikes",
                 "D": "To organize the BCP team"
             },
             "solution": "C"
@@ -12819,16 +12861,6 @@
                 "D": "The set of starting and ending points computed for each chain"
             },
             "solution": "D"
-        },
-        {
-            "question": "What is the main obstacle to the success of a security system in an organization?",
-            "answers": {
-                "A": "Risk aversion and a lack of perceived value of security",
-                "B": "Insufficient employee training on security practices",
-                "C": "Technical limitations of the security system",
-                "D": "Lack of support from the IT department"
-            },
-            "solution": "A"
         },
         {
             "question": "What is the primary characteristic of a private cloud in comparison to a public cloud environment?",
@@ -13281,7 +13313,7 @@
             "solution": "B"
         },
         {
-            "question": "A pen tester is configuring a Windows laptop for a test. In setting up Wireshark, what driver and library are required to allow the NIC to work in promiscuous mode?",
+            "question": "A pentester is configuring a Windows laptop for a test. In setting up Wireshark, what driver and library are required to allow the NIC to work in promiscuous mode?",
             "answers": {
                 "A": "promsw",
                 "B": "winprom",
@@ -13295,7 +13327,7 @@
             "answers": {
                 "A": "Authentication, Authorization, and Accounting",
                 "B": "Design, Implementation, and Testing",
-                "C": "Application in development, Application in production, and Introduction of COTS application into production",
+                "C": "Application in development, Application in production, and the  COTS application that is introduced into production",
                 "D": "Development, Production, and Testing"
             },
             "solution": "C"
@@ -13548,7 +13580,7 @@
                 "C": "Unauthorized write access to low-level data",
                 "D": "Unauthorized read access to low-level data"
             },
-            "solution": "D"
+            "solution": "C"
         },
         {
             "question": "What are containers in cloud computing primarily used for?",
@@ -13608,7 +13640,7 @@
                 "C": "The responsibilities and clearance of the user",
                 "D": "The criticality of the information to be protected"
             },
-            "solution": "A"
+            "solution": "B"
         },
         {
             "question": "What is the process of identifying, categorizing, and prioritizing vulnerabilities based on the likelihood and potential impact of exploitation?",
@@ -13861,7 +13893,7 @@
             "solution": "B"
         },
         {
-            "question": "A user on Joe’s network does not need to remember a long password. Users on Joe’s network log in using a token and a four-digit PIN. Which authentication measure best describes this?",
+            "question": "Users on a network authenticate using a hardware token and a four-digit PIN. Which authentication method does this describe?",
             "answers": {
                 "A": "Multifactor authentication",
                 "B": "Two-factor authentication",
@@ -13871,12 +13903,12 @@
             "solution": "B"
         },
         {
-            "question": "In which business process is the requirement on integrity to be classified as very high?",
+            "question": "As per BSI TR-03184 Information Security for Space Systems, which business process requires integrity to be classified as very high?",
             "answers": {
-                "A": "Transports",
+                "A": "Test",
                 "B": "Operation",
-                "C": "Test",
-                "D": "Manufacturing"
+                "C": "A and B",
+                "D": "None of the above"
             },
             "solution": "C"
         },
@@ -14461,16 +14493,6 @@
             "solution": "A"
         },
         {
-            "question": "What is a major implication of quantum computing in the field of access control?",
-            "answers": {
-                "A": "Enhanced capabilities in intrusion detection and anomaly-based security",
-                "B": "Real-time prevention of information flow analysis",
-                "C": "Improved speed and accuracy in biometric matching",
-                "D": "All of the above"
-            },
-            "solution": "D"
-        },
-        {
             "question": "Which privacy paradigm focuses on providing users with the means to decide what information they will expose to the adversary?",
             "answers": {
                 "A": "Privacy as confidentiality",
@@ -14981,14 +15003,14 @@
             "solution": "B"
         },
         {
-            "question": "Alan is the security administrator for a public network. In an attempt to detect hacking attempts, he installed a program on his production servers that imitates a well-known operating system vulnerability and reports exploitation attempts to the administrator. What is this type of technique called?",
+            "question": "Norbert is the security administrator for a public network. In an attempt to detect hacking attempts, he installed a program on his production servers that imitates a well-known operating system vulnerability and reports exploitation attempts to the administrator. What is this type of technique called?",
             "answers": {
                 "A": "Bear trap",
                 "B": "Firewall",
                 "C": "Pseudo-flaw",
                 "D": "Honey pot"
             },
-            "solution": "D"
+            "solution": "C"
         },
         {
             "question": "What cryptographic attack exploits the properties of the RSA algorithm by selecting blocks of data to analyze for cryptanalysis?",
@@ -15139,16 +15161,6 @@
                 "D": "Online bookmakers"
             },
             "solution": "D"
-        },
-        {
-            "question": "What is a key aspect of change control in a distributed system's Configuration Management plan?",
-            "answers": {
-                "A": "Verifying the effectiveness of security controls",
-                "B": "Documenting system-level and site-level policies and standards",
-                "C": "Reconciling differences in security software on diverse platforms",
-                "D": "Ensuring the consistency and continuity of system operations"
-            },
-            "solution": "C"
         },
         {
             "question": "What system uses reflections of commercial radio and television broadcast signals to detect and track airborne objects?",
@@ -15371,7 +15383,7 @@
             "solution": "C"
         },
         {
-            "question": "iOS is based on which operating system?",
+            "question": "iOS is based on which operating system? (Select the most appropriate option)",
             "answers": {
                 "A": "Unix",
                 "B": "Windows",
@@ -15521,16 +15533,6 @@
             "solution": "D"
         },
         {
-            "question": "Why is it mentioned that the 'Trusted Computing' technology has not lived up to the initial hype?",
-            "answers": {
-                "A": "It is not compatible with Vista",
-                "B": "It does not enhance user convenience",
-                "C": "It does not allow the easy identification of user PCs",
-                "D": "It is costly for the users"
-            },
-            "solution": "C"
-        },
-        {
             "question": "What is the main purpose of a disaster recovery plan (DRP)?",
             "answers": {
                 "A": "To ensure daily business operations run smoothly",
@@ -15644,11 +15646,11 @@
             "question": "In the context of privacy breach response planning, what is the primary action to undertake regarding potential data breaches?",
             "answers": {
                 "A": "Receive notification of potential incidents",
-                "B": "Coordinate with information security incident response plan",
-                "C": "Locate and map the data flow of PII",
-                "D": "Document all types of personally identifiable information (PII)"
+                "B": "Ensure that all relevant documents are up-to-date and available to all employees",
+                "C": "Identify and record the locations of personally identifiable information (PII) across the organization",
+                "D": "Appoint a suitable business PII lawyer for the organization"
             },
-            "solution": "A"
+            "solution": "C"
         },
         {
             "question": "Which choice below is NOT considered a potential hazard resulting from natural events?",
@@ -15983,7 +15985,7 @@
         {
             "question": "What is a common means to protect power supply equipment from noise interference (EMI, RFI)?",
             "answers": {
-                "A": "Switching to fiber-optic cables for networkingEstablishing proper grounding",
+                "A": "Switching to fiber-optic cables for networking and establishing proper grounding",
                 "B": "Installing water-detection circuits",
                 "C": "Using surge protectors",
                 "D": "None of the above"
@@ -16104,8 +16106,8 @@
             "question": "What is another term for secret key encryption?",
             "answers": {
                 "A": "PKI",
-                "B": "Asymmetrical",
-                "C": "Symmetrical",
+                "B": "Asymmetric encryption",
+                "C": "Symmetric encryption",
                 "D": "Public key"
             },
             "solution": "C"
@@ -16256,9 +16258,9 @@
                 "A": "AMD",
                 "B": "Intel",
                 "C": "IBM",
-                "D": "ARM"
+                "D": "The Trusted Platform Module (TPM) is an international standard for a secure cryptoprocessor, and it is not exclusively developed or owned by any single manufacturer"
             },
-            "solution": "B"
+            "solution": "D"
         },
         {
             "question": "What is the device that interprets digital and analog signals to enable data transmission over telephone lines?",
@@ -16454,11 +16456,11 @@
             "question": "Which model allows researchers to identify hotspots for cybercrime, such as poorly configured systems that are easier to compromise?",
             "answers": {
                 "A": "Situational crime prevention",
-                "B": "Environmental criminology",
-                "C": "Pattern theory of crime",
-                "D": "Rational choice theory"
+                "B": "Pattern theory of crime",
+                "C": "Rational choice theory",
+                "D": "None of the above"
             },
-            "solution": "C"
+            "solution": "B"
         },
         {
             "question": "What is the purpose of vulnerability assessment in security testing?",
@@ -16826,9 +16828,9 @@
                 "A": "No logging and auditing of system utilization",
                 "B": "Absence of granular access control",
                 "C": "Transparent reproduction of the workplace environment",
-                "D": "Minimal costs for equipment and support"
+                "D": "Access to the corporate internal network without two-factor authentication"
             },
-            "solution": "D"
+            "solution": "C"
         },
         {
             "question": "What is the primary purpose of a security policy?",
@@ -17074,7 +17076,7 @@
             "question": "What is a necessary condition for the security of the RSA mechanism?",
             "answers": {
                 "A": "The security is based on the assumed difficulty of calculating discrete logarithms in elliptic curves.",
-                "B": "The length of the modulus n should be at least 1000 bits",
+                "B": "The length of the modulus n should be at least 512 bits",
                 "C": "The length of the modulus n should be at least 3000 bits",
                 "D": "The public exponent e must be less than 2"
             },
@@ -17233,12 +17235,12 @@
         {
             "question": "What types of attacks are addressed by the Android and iOS operating systems?",
             "answers": {
-                "A": "Phishing and social engineering",
+                "A": "Malicious and unintentional data loss",
                 "B": "Resource and service availability abuse",
-                "C": "Data breaches",
+                "C": "Attacks on the integrity of data",
                 "D": "All of the above"
             },
-            "solution": "B"
+            "solution": "D"
         },
         {
             "question": "What is the purpose of mapping new standards and industry requirements to an organization's existing control standards or to ISO 17799?",
@@ -18721,7 +18723,7 @@
             "solution": "D"
         },
         {
-            "question": "Which statement is true of risk?",
+            "question": "Which of the following statements about risk is true?",
             "answers": {
                 "A": "A qualitative risk analysis should be preferred for assigning monetary values",
                 "B": "Implementation of preventive controls is sufficient for risk mitigation",
@@ -19010,13 +19012,13 @@
             },
             "solution": "D"
         },
-        {
+         {
             "question": "In the Dolev-Yao adversary model, what can an adversary do?",
             "answers": {
-                "A": "Eavesdrop, modify, replicate, delay",
-                "B": "Eavesdrop, forge, delay, modify",
+                "A": "Only Eavesdrop and delay",
+                "B": "Only eavesdrop and replay",
                 "C": "Eavesdrop, forge, replay, delay, rush, reorder, delete",
-                "D": "Eavesdrop, forge, replay, delay"
+                "D": "Only eavesdrop"
             },
             "solution": "C"
         },
