@@ -36,12 +36,42 @@ Cite the paper:
 The CyberMetric dataset was created by applying different language models using Retrieval-Augmented Generation (RAG), with human validation included in the process. The AI-driven generation framework is illustrated in the following figure.
 <img width="1102" alt="Framework" src="https://github.com/cybermetric/CyberMetric/assets/159767263/6d3c8d55-289d-4922-8302-4f3e379a9805">
 
+# Prompt 
+Most of the evaluated models were instruction-fine-tuned, and the following prompts were used to obtain the correct answers in XML format.
+```python
+    def make_messages(question, answers):
+        """
+        Formats a single question+answers into a list of message dictionaries for the pipeline.
+        """
+        options_str = ', '.join([f"{key}) {value}" for key, value in answers.items()])
+        instructions = (
+            "You are a helpful AI assistant.\n"
+            "Instructions:\n"
+            "a. Carefully read the question.\n"
+            "b. Choose the correct answer (A, B, C, or D) only.\n"
+            "c. Do NOT include any explanation or additional text in the response.\n"
+            "d. Always return the answer in this XML format: '<xml>answer</xml>'. "
+            "For example, if the correct answer is D, then return <xml>D</xml>.\n\n"
+        )
+    
+        messages = [
+            {"role": "system", "content": instructions},
+            {"role": "user", "content": f"#Question: {question}\nOptions: {options_str}"}
+        ]
+        return messages
 
+```
 # LLM Leaderboard on CyberMetric Dataset
 
-We have evaluated and compared 25 state-of-the-art LLM models on the CyberMetric dataset
+We have assessed and compared state-of-the-art LLM models using the CyberMetric dataset. The most recent evaluation was conducted on December 27th, 2024.
 
-<img width="971" alt="result" src="https://github.com/cybermetric/CyberMetric/assets/159767263/208e28b0-9218-4007-a48c-5a9d30400c2d">
+
+
+
+<div align="center">
+    <img width="1065" alt="Cybermetric_result" src="https://github.com/user-attachments/assets/dc3a0a0f-59d1-464e-bf67-a37d0008bdaf" />
+</div>
+
 
 
 # Usage
