@@ -5,8 +5,9 @@ from tqdm import tqdm
 from openai import OpenAI
 
 class CyberMetricEvaluator:
-    def __init__(self, api_key, file_path):
-        self.client = OpenAI(api_key=api_key)
+    def __init__(self, model, file_path):
+        self.client = OpenAI()
+        self.model = model
         self.file_path = file_path
 
     def read_json_file(self):
@@ -27,7 +28,7 @@ class CyberMetricEvaluator:
         for attempt in range(max_retries):
             try:
                 response = self.client.chat.completions.create(
-                    model="gpt-3.5-turbo-0125",
+                    model=self.model,
                     messages=[
                         {"role": "system", "content": "You are a security expert who answers questions."},
                         {"role": "user", "content": prompt},
@@ -81,7 +82,7 @@ class CyberMetricEvaluator:
 
 # Example usage:
 if __name__ == "__main__":
-    API_KEY="<YOUR-APKI-KEY-HERE>"
+    MODEL="gpt-3.5-turbo-0125"
     file_path='CyberMetric-500-v1.json'
-    evaluator = CyberMetricEvaluator(api_key=API_KEY, file_path=file_path)
+    evaluator = CyberMetricEvaluator(model=MODEL, file_path=file_path)
     evaluator.run_evaluation()
