@@ -231,7 +231,7 @@
             "solution": "B"
         },
         {
-            "question": "What does information assurance primarily focus on within the realm of information security?",
+            "question": "Information assurance primarily focuses on which aspect of information security?",
             "answers": {
                 "A": "Ethics",
                 "B": "Measurement",
@@ -451,14 +451,14 @@
             "solution": "B"
         },
         {
-            "question": "How is the process of columnar transposition cryptanalysis by cribbing used to test the possible width N?",
+            "question": "In the cryptanalysis of a columnar transposition cipher using a known-plaintext attack (cribbing), how is a candidate column width N verified?",
             "answers": {
-                "A": "By analyzing the length of the ciphertext",
+                "A": "By calculating the Index of Coincidence of the ciphertext.",
                 "B": "By searching for a complete set of subcribs",
-                "C": "By sorting the positions of the plaintext",
+                "C": "By performing a frequency analysis on individual characters.",
                 "D": "By encrypting the plaintext multiple times"
             },
-            "solution": "C"
+            "solution": "B"
         },
         {
             "question": "What is the responsibility of an intrusion detection system (IDS)?",
@@ -771,12 +771,12 @@
             "solution": "D"
         },
         {
-            "question": "The principle of 'secure by default' is inherently aligned with which cybersecurity principle?",
+            "question": "The implementation of 'Secure by Default' settings is a core component of which broader cybersecurity philosophy?",
             "answers": {
-                "A": "Least Privilege",
-                "B": "Security by design",
-                "C": "Constrained Delegation",
-                "D": "Defense in Depth"
+                "A": "Incident Response",
+                "B": "Security by Design",
+                "C": "Business Continuity",
+                "D": "Perimeter Defense"
             },
             "solution": "B"
         },
@@ -1014,8 +1014,8 @@
             "question": "What are the primary types of authentication as categorized by the 'something you know, something you have, something you are' model?",
             "answers": {
                 "A": "Discretionary, Nondiscretionary, Role-based",
-                "B": "Type 1, Type 2, Type 3",
-                "C": "Knowledge, Possession, Inheritance",
+                "B": "Type 1 (Knowledge), Type 2 (Possession), Type 3 (Inherence)",
+                "C": "Confidentiality, Integrity, Availability",
                 "D": "Discretionary, Biometric, Token"
             },
             "solution": "B"
@@ -1605,8 +1605,8 @@
             "answers": {
                 "A": "A specialized storage area that is dedicated to one server to alleviate data storage pain points",
                 "B": "A regular local area network (LAN) used for storage and backup purposes",
-                "C": "A data storage system consisting of various storage elements and devices communicating in efficient harmony over a network",
-                "D": "A high-speed network that allows any-to-any connections across the network using interconnected elements such as routers, gateways, hubs, switches, and directors"
+                "C": "A data storage system consisting of various storage elements and devices, plus all the control software, all communicating in efficient harmony over a network",
+                "D": "A general network connecting devices like hubs and routers for standard office data traffic"
             },
             "solution": "C"
         },
@@ -3446,7 +3446,7 @@
             "answers": {
                 "A": "Enhancing battery life",
                 "B": "Utilizing a network vulnerability",
-                "C": "Tampering with digital rights management security",
+                "C": "Gaining administrative or privileged control over the operating system",
                 "D": "Increasing device processing speed"
             },
             "solution": "C"
@@ -4165,11 +4165,11 @@
             "question": "What does AAA stand for in the context of network security?",
             "answers": {
                 "A": "Application, Authentication, and Authorization",
-                "B": "Authentication, Authorization, and Accountability",
+                "B": "Authentication, Authorization, and Availability",
                 "C": "Access, Authorization, and Accounting",
-                "D": "Accounting, Authentication, and Authorization"
+                "D": "Authentication, Authorization, and Accounting"
             },
-            "solution": "B"
+            "solution": "D"
         },
         {
             "question": "What is the purpose of multi-factor authentication in cybersecurity?",
