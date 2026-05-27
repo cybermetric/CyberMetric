@@ -16375,7 +16375,7 @@
         {
             "question": "In cryptography, what does DES stand for?",
             "answers": {
-                "A": "Digital Encryption Standard",
+                "A": "Data Encryption Standard",
                 "B": "Data Encryption System",
                 "C": "Data Encoding System",
                 "D": "Digital Encoding Standard"
